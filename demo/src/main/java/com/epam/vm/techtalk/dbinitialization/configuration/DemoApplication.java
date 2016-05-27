@@ -28,8 +28,6 @@ public class DemoApplication {
 	public CommandLineRunner demo(InitializationStrategyRepository repository) {
 		return (args) -> {
 			
-			//repository.save(new InitializationStrategy("1", 2));
-			
 			// show all strategies
 			log.info("Database initialization Strategies rating list:");
 			log.info("-----------------------------------------------");
