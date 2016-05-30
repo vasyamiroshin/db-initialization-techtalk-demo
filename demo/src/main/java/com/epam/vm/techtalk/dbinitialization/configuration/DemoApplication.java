@@ -28,7 +28,7 @@ public class DemoApplication {
 	public CommandLineRunner demo(InitializationStrategyRepository repository) {
 		return (args) -> {
 			
-			// show all strategies
+			// Show all strategies
 			log.info("Database initialization Strategies rating list:");
 			log.info("-----------------------------------------------");
 			repository.findAll().forEach(p -> log.info(p.toString()));

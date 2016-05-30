@@ -21,7 +21,7 @@ public class InitializationStrategy {
 	@Column
 	private Integer rate;
 	
-	protected InitializationStrategy() {}
+	public InitializationStrategy() {}
 	
 	public InitializationStrategy(String name, Integer rate) {
 		this.name = name;

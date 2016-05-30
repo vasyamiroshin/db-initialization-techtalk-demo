@@ -1,1 +1,2 @@
-'Spring Batch Initialization', 21
+29, 'Spring Batch Initialization via JDBCTemplate', 21
+30, 'Spring Batch Initialization via JPAItem Writer', 30
