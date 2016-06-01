@@ -57,7 +57,7 @@
 
 	<profiles>
 		<profile>
-			<id>dbinit</id>
+			<id>db_init</id>
 			<build>
 				<plugins>
 					<plugin>
